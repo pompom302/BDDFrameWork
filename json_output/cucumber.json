@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#Data driven development with cucumber using datatables with Map for parameterization"
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM create a new deal with mapping scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-with-mapping-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8819516400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "dealsMapStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46288900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "dealsMapStepDefinition.title_of_login_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 765831800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#enter data in table form exactly after declaration"
+              }
+            ],
+            "line": 8,
+            "name": "user enters username and password",
+            "match": {
+              "location": "dealsMapStepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "PayalModi",
+                  "PayalHenish"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3529562000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "dealsMapStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8843300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on home page",
+            "match": {
+              "location": "dealsMapStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1630995900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user moves to new deal page",
+            "match": {
+              "location": "dealsMapStepDefinition.user_moves_to_new_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6227684700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters deal details",
+            "match": {
+              "location": "dealsMapStepDefinition.user_enters_contacts_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Title",
+                  "Amount",
+                  "Probability",
+                  "Commission"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "test deal1",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "test deal2",
+                  "2000",
+                  "60",
+                  "20"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "test deal3",
+                  "3000",
+                  "70",
+                  "30"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 766049000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the browser",
+            "match": {
+              "location": "dealsMapStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "C:/Selenium_Workspace/BDDFrameWork/src/main/java/features/dealsMap.feature"
+  }
+]
